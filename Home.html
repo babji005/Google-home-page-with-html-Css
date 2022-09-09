@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google</title>
+    <!-- <link  id="google" > -->
+    <!-- <link rel="icon" id="google" href="https://seeklogo.com/images/N/new-google-favicon-logo-5E38E037AF-seeklogo.com.png"> -->
+    <link rel="icon" id="google" href="logo.html">
+    <!-- <link rel="icon" id="google" href="logo.html"> -->
+    <!-- <div id="google"></div> -->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" id="google" href="logo.html">
+    <title>Google</title> -->
+    
+    <!-- <script src="Home.js"></script> -->
+</head>
+<body>
+    <div id="navbar">
+        <a href="logo.html">click me to see logo</a>
+        <a href="#" id="gmail">Gmail</a>
+        <a href="#" id="images">Images</a>
+        <a href="#" id="menu">
+            <img src="googleapps_button.png" width="20"/>
+        </a>
+        <a href="#" id="icon">
+            <img src="user_icon.png" alt="user_button" width="30" >
+        </a>
+
+    </div>
+    <div id="main"> 
+        
+        <!-- <a id="logo"><img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/></a> -->
+        
+        <div id="logo" style="background-color:white; font-size:70px; 
+font-weight:strong;
+font-family: century gothic"></div>
+<script>
+    function twoColors(s) {
+    var c = Array.from(s)
+    var temp = ""
+    for (let i = 0; i < c.length; i++) {
+      if (i == 1 || i==5){
+        x = "<span style=\"color:red\">" + c[i] + "</span>";
+    }
+       if (i == 0 || i==3 ) {
+       
+          x = "<span style=\"color:blue\" >" + c[i] + "</span>";
+    }
+       if (i == 4) {
+          x = "<span style=\"color:green\" >" + c[i] + "</span>";
+    } 
+       if(i == 2){
+    console.log("wtf")
+      x = "<span style=\"color:yellow\">" + c[i] + "</span>";
+    }
+      
+    var d = temp + x
+    console.log(d, temp)
+    temp = d
+    console.log(temp)
+  
+  
+  }
+  return temp
+  
+  
+  }
+  console.log("hello",twoColors("Google"))
+  document.getElementById("logo").innerHTML = twoColors("Google");
+</script>
+        
+        <input id="input" class="nosubmit">
+    </input>     
+       <div id="flexbox">
+            <button id="gs" >Google Search</button>
+            <button id="ifl" >I'm Feeling Lucky</button>
+        </div>
+        <p id="langs" >Google offered by:<a style="color:blue">हिन्दी  বাংলা  తెలుగు  मराठी  தமிழ்  ગુજરાતી  ಕನ್ನಡ  മലയാളം  ਪੰਜਾਬੀ</a> </p>
+    </div>
+    <footer id="footer" height="20">
+    <div id="country"><p id="nation">India</p>
+       <hr />
+    </div>
+    <!-- <hr/> -->
+    
+    
+        <div id="footer1">
+            <!-- <div>India</div> -->
+            
+            
+            <a href="#"  id="about">About</a>
+            <a href="#" id="advertising">Advertising</a>
+            <a href="#" id="bussiness">Bussiness</a>
+            <a href="#" id="hsw">How Search Works</a>
+            <a href="#" id="privacy">Privacy</a>
+            <a href="#" id="terms">Terms</a>
+            <a href="#" id="settings">Settings</a>
+          
+      
+    </div>
+    
+
+</footer>
+
+
+
+</body>
